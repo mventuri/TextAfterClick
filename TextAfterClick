@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>Text After Click</title>
+<style>
+  body{
+  background-color: #f29200;
+}
+
+#button{
+  font-size: 30px;
+  background-color: #000;
+  color:#fff;
+  border-radius: 15px;
+}
+
+#box{
+  font-size:50px;
+  color:#fff;
+  margin-top:25px;
+}
+
+#wrapper{
+  text-align:center;
+  margin-top:25px;
+}
+</style>
+</head>
+<body>
+
+  <div id="wrapper">
+  <button id="button">Click Me</button>
+  <div id="box"></div>
+</div>
+  //Check the Tutorial on YouTube: https://www.youtube.com/watch?v=bGBUxva3BUs
+  $("button").click(function(){
+    $("#box").html("Hello World!")
+  })
+  <!--JQuery-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    
+
+
+
+
+</body>
+
+</html>
